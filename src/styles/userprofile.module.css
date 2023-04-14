@@ -1,0 +1,57 @@
+.UserProfilePage{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+    width: 50vw;
+    height: 60vh;
+    margin: 80px auto;
+    color:black;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  }
+.ProfilePage{
+    grid-column: 1 / span 3;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: auto;
+    gap: 20px;
+    font-size: larger;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+  }
+.ProfilePage img{
+  margin-left: 30px;
+}
+.ProfilePage h2{
+  font-size: larger;
+  font-weight: bold;
+  margin-left:50px;
+}
+.aboutContact{
+  display: flex;
+  flex-direction:column;
+  gap: 40px;
+  padding: 20px;
+}
+.aboutContact h2{
+   font-size: 25px;
+   font-weight: bold;
+}
+.aboutContact p{
+    font-size: 25px;
+    font-weight: bold;
+    font-size: larger;
+    color: blue;
+ }
+  
+.subscribe h3{
+  color: black;
+  font-weight: 500;
+
+}
